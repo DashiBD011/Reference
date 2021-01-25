@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void ExchangeXOR(int a, int b);
@@ -13,13 +13,14 @@ void main()
 	double c = 3.13;
 	double d = 2.25;
 
-	cout << "Ïåðåñòàíîâêà ïîáèòîâûìè îïåðàòîðàìè:" << endl;
+	cout << "ÐŸÐµÑ€ÐµÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ° Ð¿Ð¾Ð±Ð¸Ñ‚Ð¾Ð²Ñ‹Ð¼Ð¸ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð°Ð¼Ð¸:" << endl;
 	cout << a << "\t" << b << endl;
 	ExchangeXOR(a, b);
 
-	cout << "Àðèôìåòè÷åñêàÿ ïåðåñòàíîâêà:" << endl;
+	cout << "ÐÑ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð¿ÐµÑ€ÐµÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ°:" << endl;
 	cout << c << "\t" << d << endl;
 	Exchange(c, d);
+
 }
 
 
